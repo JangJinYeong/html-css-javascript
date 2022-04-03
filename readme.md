@@ -740,6 +740,44 @@ item 속성값
 
 <br>
 
+### Media Queries
+
+<br>
+
+```css
+@media screen and (min-width 500px) {
+  .container {
+    width: 50%;
+  }
+}
+```
+
+<p align="center">Media Queies</p>
+
+<br>
+
+- 미디어 타입
+
+  - `screen`
+
+  - `print`
+
+  - `all`
+
+- 논리 연산자
+
+  - `and`
+
+  - `not`
+
+  - `only`
+
+  - `,` (comma)
+
+<br>
+
+<br>
+
 ### Learn More
 
 [CSS 개요](https://happy-noether-c87ffa.netlify.app/presentations/level1/css/summary/)<br>
