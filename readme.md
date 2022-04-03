@@ -778,6 +778,60 @@ item 속성값
 
 <br>
 
+### Font Size
+
+<br>
+
+Font Size 단위
+
+- `px`: 모니터의 pixel 단위
+
+- `em`: reletive to parent element
+
+  - 부모 요소의 font size를 곱한 값으로 계산된다.
+
+  - 상황에 따라 margin과 padding 등에도 em을 활용 가능하다.
+
+    - 이때, 기존 컨텐츠의 font size 대비로 계산된다.
+
+- `rem`: reletive to root element
+
+  - root에 지정된 font size에 따라서 크기가 결정된다.
+
+  - root의 default font size는 16px이므로, 이를 다른 값으로 지정하지 않으면 1rem 값은 16px이다.
+
+  - 상황에 따라 margin과 padding 등에도 em을 활용 가능하다.
+
+  - `@media`에서도 활용하자. (768px = 48rem)
+
+- `vw`: viewport width 대비 값 (백분율)
+
+- `vh`: viewport height 대비 값 (백분율)
+
+- `%`: 부모 요소의 상대적인 값
+
+- 절대적인 유닛(Absolute)에는 px, 상대적인 유닛(Relative)에는 %, vw, vh, em, rem 등을 사용한다.
+
+  - 웹 접근성 향상을 위해 상대적인 유닛에 사용되는 단위의 활용이 필요하다.
+
+Font Size 단위 사용 기준
+
+- 부모 요소
+
+  - 부모 요소의 font size에 따라 변경되어야 한다면 %, em을 사용한다.
+
+  - 부모 요소와는 상관없이 Browser의 font size에 따라 변경되어야 한다면 vh, vw, rem을 사용한다.
+
+- 요소의 너비와 높이
+
+  - 요소의 너비와 높이에 따라 변경되어야 한다면 %, vh, vw을 사용한다.
+
+  - font size에 따라 변경되어야 한다면 em, rem을 사용한다.
+
+<br>
+
+<br>
+
 ### Learn More
 
 [CSS 개요](https://happy-noether-c87ffa.netlify.app/presentations/level1/css/summary/)<br>
