@@ -30,7 +30,7 @@
 </html>
 ```
 
-<center>html의 기본 구조</center>
+<p align="center">html의 기본 구조</p>
 
 <br>
 
@@ -97,7 +97,7 @@ html 기본 구조는 빈 html 파일에서 `!` 혹은 `html5` 작성 후 `Tab` 
 </html>
 ```
 
-<center>emmet 문법 사용 결과</center>
+<p align="center">emmet 문법 사용 결과</p>
 
 <br>
 
@@ -115,7 +115,7 @@ html 기본 구조는 빈 html 파일에서 `!` 혹은 `html5` 작성 후 `Tab` 
 <a href="http://google.com" target="_blank">Click</a>
 ```
 
-<center>a</center>
+<p align="center">a</p>
 
 `<a>`
 
@@ -131,7 +131,7 @@ html 기본 구조는 빈 html 파일에서 `!` 혹은 `html5` 작성 후 `Tab` 
 <p>This is a sentence. <div>That</div> is..</p>
 ```
 
-<center>Block vs Inline</center>
+<p align="center">Block vs Inline</p>
 
 <br>
 
@@ -154,7 +154,7 @@ html 기본 구조는 빈 html 파일에서 `!` 혹은 `html5` 작성 후 `Tab` 
 </ul>
 ```
 
-<center>List (ol, ul, li)</center>
+<p align="center">List (ol, ul, li)</p>
 
 <br>
 
@@ -184,7 +184,7 @@ html 기본 구조는 빈 html 파일에서 `!` 혹은 `html5` 작성 후 `Tab` 
 <label for="input_name">Name: </label> <input id="input_name" type="text" />
 ```
 
-<center>Input</center>
+<p align="center">Input</p>
 
 <br>
 
@@ -283,7 +283,7 @@ http://www.tcpschool.com/<br>
 </html>
 ```
 
-<center>html</center>
+<p align="center">html</p>
 
 <br>
 
@@ -316,7 +316,7 @@ a[href^='naver'] {
 }
 ```
 
-<center>css</center>
+<p align="center">css</p>
 
 - `*`: Universal.
 
@@ -351,7 +351,7 @@ a[href^='naver'] {
 </html>
 ```
 
-<center>html</center>
+<p align="center">html</p>
 
 <br>
 
@@ -366,7 +366,7 @@ a[href^='naver'] {
 }
 ```
 
-<center>css</center>
+<p align="center">css</p>
 
 <br>
 
@@ -395,7 +395,7 @@ a[href^='naver'] {
 </html>
 ```
 
-<center>html</center>
+<p align="center">html</p>
 
 <br>
 
@@ -418,7 +418,7 @@ sapn {
 }
 ```
 
-<center>css</center>
+<p align="center">css</p>
 
 <br>
 
@@ -472,7 +472,7 @@ sapn {
 </html>
 ```
 
-<center>html</center>
+<p align="center">html</p>
 
 <br>
 
@@ -500,7 +500,7 @@ span {
 }
 ```
 
-<center>css</center>
+<p align="center">css</p>
 
 <br>
 
@@ -559,7 +559,7 @@ item에 float 적용 시 container에도 특정한 영향을 미치는데, 해�
 }
 ```
 
-<center>clearfix</center>
+<p align="center">clearfix</p>
 
 <br>
 
@@ -592,7 +592,7 @@ item에 float 적용 시 container에도 특정한 영향을 미치는데, 해�
 </html>
 ```
 
-<center>html</center>
+<p align="center">html</p>
 
 <br>
 
@@ -638,7 +638,7 @@ item에 float 적용 시 container에도 특정한 영향을 미치는데, 해�
 }
 ```
 
-<center>css</center>
+<p align="center">css</p>
 
 <br>
 
