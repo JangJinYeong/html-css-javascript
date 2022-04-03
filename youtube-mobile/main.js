@@ -1,9 +1,9 @@
-const moreBtn = document.querySelector('.info .metadata .moreBtn');
-const title = document.querySelector('.info .metadata .title');
+const moreBtn = document.querySelector(".info .metadata .moreBtn")
+const title = document.querySelector(".info .metadata .title")
 
-console.log(moreBtn);
+console.log(moreBtn)
 
-moreBtn.addEventListener('click', () => {
-  moreBtn.classList.toggle('clicked');
-  title.classList.toggle('clamp');
-});
+moreBtn.addEventListener("click", () => {
+  moreBtn.classList.toggle("clicked")
+  title.classList.toggle("clamp")
+})
